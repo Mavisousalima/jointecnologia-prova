@@ -3,11 +3,6 @@ from django.forms import TextInput, DateInput
 
 from .models import Alvo
 
-"""class AlvoForm(forms.Form):
-    nome = forms.CharField(label='Nome', max_length=255)
-    latitude = forms.DecimalField(label='Latitude')
-    longitude = forms.DecimalField(label='Longitude')
-    data_expiracao = forms.DateField()"""
 
 class AlvoForm(forms.ModelForm):
 
