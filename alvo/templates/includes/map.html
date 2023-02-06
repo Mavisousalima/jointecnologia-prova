@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5cc2a40faabbbd5e666cb044f317b36 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c5cc2a40faabbbd5e666cb044f317b36" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c5cc2a40faabbbd5e666cb044f317b36 = L.map(
+                "map_c5cc2a40faabbbd5e666cb044f317b36",
+                {
+                    center: [-14.235, -51.9253],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ae23d03dd1b359f92a9bfddf460506d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c5cc2a40faabbbd5e666cb044f317b36);
+        
+    
+            var marker_fa145d60c7bd2d86ec6482f790a1ef4e = L.marker(
+                [-23.421, -51.9331],
+                {}
+            ).addTo(map_c5cc2a40faabbbd5e666cb044f317b36);
+        
+    
+            var icon_cc14ee8af47684cd28068da524df7d71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa145d60c7bd2d86ec6482f790a1ef4e.setIcon(icon_cc14ee8af47684cd28068da524df7d71);
+        
+    
+        var popup_a24b8e07cb8f966581699f82f667ed50 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_44c71c45b328b536ff383eab3eb14312 = $(`<div id="html_44c71c45b328b536ff383eab3eb14312" style="width: 100.0%; height: 100.0%;"><div><h1>São Paulo</h1><p>Lat: -23.421000</p><p>Long: -51.933100</p><p>Data Exp: 2023-02-09</p><a href='atualizar_alvo/9'><button class='btn btn-warning'>Atualizar</button></a><p></p><a href='remover_alvo/9'><button class='btn btn-danger'>Excluir</button></a></div></div>`)[0];
+                popup_a24b8e07cb8f966581699f82f667ed50.setContent(html_44c71c45b328b536ff383eab3eb14312);
+            
+        
+
+        marker_fa145d60c7bd2d86ec6482f790a1ef4e.bindPopup(popup_a24b8e07cb8f966581699f82f667ed50)
+        ;
+
+        
+    
+    
+            var marker_921aab645f2da1bb4ceb74969626ec2a = L.marker(
+                [43.6532, -79.3832],
+                {}
+            ).addTo(map_c5cc2a40faabbbd5e666cb044f317b36);
+        
+    
+            var icon_8005dc94073c8cc95b02890e997f33cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_921aab645f2da1bb4ceb74969626ec2a.setIcon(icon_8005dc94073c8cc95b02890e997f33cb);
+        
+    
+        var popup_a3801bff28585b129175d150a534baf0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_4f6379fdc38437f951c1caf9c7525889 = $(`<div id="html_4f6379fdc38437f951c1caf9c7525889" style="width: 100.0%; height: 100.0%;"><div><h1>Araguaina</h1><p>Lat: 43.653200</p><p>Long: -79.383200</p><p>Data Exp: 2023-02-09</p><a href='atualizar_alvo/10'><button class='btn btn-warning'>Atualizar</button></a><p></p><a href='remover_alvo/10'><button class='btn btn-danger'>Excluir</button></a></div></div>`)[0];
+                popup_a3801bff28585b129175d150a534baf0.setContent(html_4f6379fdc38437f951c1caf9c7525889);
+            
+        
+
+        marker_921aab645f2da1bb4ceb74969626ec2a.bindPopup(popup_a3801bff28585b129175d150a534baf0)
+        ;
+
+        
+    
+    
+            var marker_281474c345e88a35731c60c03c500426 = L.marker(
+                [-10.2491, -48.3243],
+                {}
+            ).addTo(map_c5cc2a40faabbbd5e666cb044f317b36);
+        
+    
+            var icon_59aa130cd070c7f5643b56065f90b3cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_281474c345e88a35731c60c03c500426.setIcon(icon_59aa130cd070c7f5643b56065f90b3cf);
+        
+    
+        var popup_e10ad74d767bd720c0b422e753828d85 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_6c485e25f65137174b8124b079895dd2 = $(`<div id="html_6c485e25f65137174b8124b079895dd2" style="width: 100.0%; height: 100.0%;"><div><h1>Porto Alegreee</h1><p>Lat: -10.249100</p><p>Long: -48.324300</p><p>Data Exp: 2023-02-09</p><a href='atualizar_alvo/8'><button class='btn btn-warning'>Atualizar</button></a><p></p><a href='remover_alvo/8'><button class='btn btn-danger'>Excluir</button></a></div></div>`)[0];
+                popup_e10ad74d767bd720c0b422e753828d85.setContent(html_6c485e25f65137174b8124b079895dd2);
+            
+        
+
+        marker_281474c345e88a35731c60c03c500426.bindPopup(popup_e10ad74d767bd720c0b422e753828d85)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoinTecnologia - Test Case</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    {% block stylesheets %} {% endblock stylesheets %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="mt-5" style="display: flex; justify-content: center">
+        <img src="{% static 'img/logo.png' %}" alt="logo" />
+      </div>
+      <h2 class="text-center text-white" style="font-weight: bold">Prova técnica</h2>
+      <div class="map">{% include "includes/map.html" %}</div>
+
+      <div class="overlay hidden"></div>
+      <a href="adicionar" class="btn btn-success mt-3">Adicionar Alvo</a>
+    </div>
+  </body>
+</html>
